@@ -13,6 +13,8 @@ MonoBehaviour:
   m_Name: AudioBuddyImportManager
   m_EditorClassIdentifier: 
   ReferenceManager: {fileID: 0}
-  CollectionAddress: 
-  _abObjectCollection: []
-  Linked: 0
+  CollectionAddress: Assets/!Sound
+  _abObjectCollection:
+  - {fileID: 11400000, guid: e418f84d325652a43b8966a14bb0b34b, type: 2}
+  - {fileID: 11400000, guid: 86a7470ca68129f4395c4061f3efdb64, type: 2}
+  Linked: 1
