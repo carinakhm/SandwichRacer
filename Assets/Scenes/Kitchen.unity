@@ -332,6 +332,11 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 7007746189609445595, guid: 5f6f9054e72b7a148a42937c609e0487, type: 3}
   m_PrefabInstance: {fileID: 294166542}
   m_PrefabAsset: {fileID: 0}
+--- !u!4 &88661383 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 107209001343800985, guid: 5f6f9054e72b7a148a42937c609e0487, type: 3}
+  m_PrefabInstance: {fileID: 294166542}
+  m_PrefabAsset: {fileID: 0}
 --- !u!146 &88661384
 WheelCollider:
   m_ObjectHideFlags: 0
@@ -1015,6 +1020,11 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 8376231837450040945, guid: 5f6f9054e72b7a148a42937c609e0487, type: 3}
   m_PrefabInstance: {fileID: 294166542}
   m_PrefabAsset: {fileID: 0}
+--- !u!4 &238547518 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4238474170035666554, guid: 5f6f9054e72b7a148a42937c609e0487, type: 3}
+  m_PrefabInstance: {fileID: 294166542}
+  m_PrefabAsset: {fileID: 0}
 --- !u!146 &238547519
 WheelCollider:
   m_ObjectHideFlags: 0
@@ -1022,16 +1032,16 @@ WheelCollider:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 238547517}
-  m_Center: {x: 0, y: 0, z: 0}
-  m_Radius: 0.5
+  m_Center: {x: 0.007, y: -0.005, z: 0.152}
+  m_Radius: 0.002
   m_SuspensionSpring:
     spring: 35000
     damper: 4500
     targetPosition: 0.5
-  m_SuspensionDistance: 0.3
-  m_ForceAppPointDistance: 0
-  m_Mass: 20
-  m_WheelDampingRate: 0.25
+  m_SuspensionDistance: 3.17
+  m_ForceAppPointDistance: 0.03
+  m_Mass: 20.05
+  m_WheelDampingRate: 0.62
   m_ForwardFriction:
     m_ExtremumSlip: 0.4
     m_ExtremumValue: 1
@@ -1044,7 +1054,7 @@ WheelCollider:
     m_AsymptoteSlip: 0.5
     m_AsymptoteValue: 0.75
     m_Stiffness: 1
-  m_Enabled: 0
+  m_Enabled: 1
 --- !u!1 &246533767 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 77546144013530143bd8ec1319a85ccd, type: 3}
@@ -3199,6 +3209,11 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 2059226108773938441, guid: 5f6f9054e72b7a148a42937c609e0487, type: 3}
   m_PrefabInstance: {fileID: 294166542}
   m_PrefabAsset: {fileID: 0}
+--- !u!4 &671313097 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7617237464561048969, guid: 5f6f9054e72b7a148a42937c609e0487, type: 3}
+  m_PrefabInstance: {fileID: 294166542}
+  m_PrefabAsset: {fileID: 0}
 --- !u!146 &671313098
 WheelCollider:
   m_ObjectHideFlags: 0
@@ -3206,8 +3221,8 @@ WheelCollider:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 671313096}
-  m_Center: {x: 0, y: 0, z: 0}
-  m_Radius: 0.5
+  m_Center: {x: 0.007, y: -0.005, z: 0.152}
+  m_Radius: 0.002
   m_SuspensionSpring:
     spring: 35000
     damper: 4500
@@ -3228,7 +3243,7 @@ WheelCollider:
     m_AsymptoteSlip: 0.5
     m_AsymptoteValue: 0.75
     m_Stiffness: 1
-  m_Enabled: 0
+  m_Enabled: 1
 --- !u!1 &675417082 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 71a8edf8075e134439f358947e884bf6, type: 3}
@@ -6834,6 +6849,11 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 289016561930632135, guid: 5f6f9054e72b7a148a42937c609e0487, type: 3}
   m_PrefabInstance: {fileID: 294166542}
   m_PrefabAsset: {fileID: 0}
+--- !u!4 &1574577980 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7955562806498295030, guid: 5f6f9054e72b7a148a42937c609e0487, type: 3}
+  m_PrefabInstance: {fileID: 294166542}
+  m_PrefabAsset: {fileID: 0}
 --- !u!146 &1574577981
 WheelCollider:
   m_ObjectHideFlags: 0
@@ -8252,10 +8272,8 @@ MonoBehaviour:
     - 1
     - 1
     gears:
-    - serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
+    - m_Curve:
+      - time: 0
         value: 1.5
         inSlope: 0
         outSlope: 0
@@ -8263,8 +8281,7 @@ MonoBehaviour:
         weightedMode: 0
         inWeight: 0
         outWeight: 0
-      - serializedVersion: 3
-        time: 10
+      - time: 10
         value: 2
         inSlope: 0
         outSlope: 0
@@ -8272,8 +8289,7 @@ MonoBehaviour:
         weightedMode: 0
         inWeight: 0
         outWeight: 0
-      - serializedVersion: 3
-        time: 30
+      - time: 30
         value: 0
         inSlope: 0
         outSlope: 0
@@ -8284,10 +8300,8 @@ MonoBehaviour:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    - serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
+    - m_Curve:
+      - time: 0
         value: 0.2
         inSlope: 0
         outSlope: 0
@@ -8295,8 +8309,7 @@ MonoBehaviour:
         weightedMode: 0
         inWeight: 0
         outWeight: 0
-      - serializedVersion: 3
-        time: 30
+      - time: 30
         value: 1
         inSlope: 0
         outSlope: 0
@@ -8304,8 +8317,7 @@ MonoBehaviour:
         weightedMode: 0
         inWeight: 0
         outWeight: 0
-      - serializedVersion: 3
-        time: 45
+      - time: 45
         value: 0
         inSlope: 0
         outSlope: 0
@@ -8316,10 +8328,8 @@ MonoBehaviour:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    - serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
+    - m_Curve:
+      - time: 0
         value: 0.2
         inSlope: 0
         outSlope: 0
@@ -8327,8 +8337,7 @@ MonoBehaviour:
         weightedMode: 0
         inWeight: 0
         outWeight: 0
-      - serializedVersion: 3
-        time: 45
+      - time: 45
         value: 1
         inSlope: 0
         outSlope: 0
@@ -8336,8 +8345,7 @@ MonoBehaviour:
         weightedMode: 0
         inWeight: 0
         outWeight: 0
-      - serializedVersion: 3
-        time: 60
+      - time: 60
         value: 0
         inSlope: 0
         outSlope: 0
@@ -8348,10 +8356,8 @@ MonoBehaviour:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    - serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 15
+    - m_Curve:
+      - time: 15
         value: 0
         inSlope: 0
         outSlope: 0
@@ -8359,8 +8365,7 @@ MonoBehaviour:
         weightedMode: 0
         inWeight: 0
         outWeight: 0
-      - serializedVersion: 3
-        time: 60
+      - time: 60
         value: 1
         inSlope: 0
         outSlope: 0
@@ -8368,8 +8373,7 @@ MonoBehaviour:
         weightedMode: 0
         inWeight: 0
         outWeight: 0
-      - serializedVersion: 3
-        time: 75
+      - time: 75
         value: 0
         inSlope: 0
         outSlope: 0
@@ -8380,10 +8384,8 @@ MonoBehaviour:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    - serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 30
+    - m_Curve:
+      - time: 30
         value: 0
         inSlope: 0
         outSlope: 0
@@ -8391,8 +8393,7 @@ MonoBehaviour:
         weightedMode: 0
         inWeight: 0
         outWeight: 0
-      - serializedVersion: 3
-        time: 75
+      - time: 75
         value: 1
         inSlope: 0
         outSlope: 0
@@ -8400,8 +8401,7 @@ MonoBehaviour:
         weightedMode: 0
         inWeight: 0
         outWeight: 0
-      - serializedVersion: 3
-        time: 90
+      - time: 90
         value: 0
         inSlope: 0
         outSlope: 0
@@ -8412,10 +8412,8 @@ MonoBehaviour:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    - serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 45
+    - m_Curve:
+      - time: 45
         value: 0
         inSlope: 0
         outSlope: 0
@@ -8423,8 +8421,7 @@ MonoBehaviour:
         weightedMode: 0
         inWeight: 0
         outWeight: 0
-      - serializedVersion: 3
-        time: 90
+      - time: 90
         value: 1
         inSlope: 0
         outSlope: 0
@@ -8432,8 +8429,7 @@ MonoBehaviour:
         weightedMode: 0
         inWeight: 0
         outWeight: 0
-      - serializedVersion: 3
-        time: 105
+      - time: 105
         value: 0
         inSlope: 0
         outSlope: 0
@@ -8444,10 +8440,8 @@ MonoBehaviour:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    - serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 60
+    - m_Curve:
+      - time: 60
         value: 0
         inSlope: 0
         outSlope: 0
@@ -8455,8 +8449,7 @@ MonoBehaviour:
         weightedMode: 0
         inWeight: 0
         outWeight: 0
-      - serializedVersion: 3
-        time: 105
+      - time: 105
         value: 1
         inSlope: 0
         outSlope: 0
@@ -8464,8 +8457,7 @@ MonoBehaviour:
         weightedMode: 0
         inWeight: 0
         outWeight: 0
-      - serializedVersion: 3
-        time: 120
+      - time: 120
         value: 0
         inSlope: 0
         outSlope: 0
@@ -8476,10 +8468,8 @@ MonoBehaviour:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    - serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 75
+    - m_Curve:
+      - time: 75
         value: 0
         inSlope: 0
         outSlope: 0
@@ -8487,8 +8477,7 @@ MonoBehaviour:
         weightedMode: 0
         inWeight: 0
         outWeight: 0
-      - serializedVersion: 3
-        time: 120
+      - time: 120
         value: 1
         inSlope: 0
         outSlope: 0
@@ -8496,8 +8485,7 @@ MonoBehaviour:
         weightedMode: 0
         inWeight: 0
         outWeight: 0
-      - serializedVersion: 3
-        time: 135
+      - time: 135
         value: 0
         inSlope: 0
         outSlope: 0
@@ -8508,10 +8496,8 @@ MonoBehaviour:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    - serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 90
+    - m_Curve:
+      - time: 90
         value: 0
         inSlope: 0
         outSlope: 0
@@ -8519,8 +8505,7 @@ MonoBehaviour:
         weightedMode: 0
         inWeight: 0
         outWeight: 0
-      - serializedVersion: 3
-        time: 135
+      - time: 135
         value: 1
         inSlope: 0
         outSlope: 0
@@ -8528,8 +8513,7 @@ MonoBehaviour:
         weightedMode: 0
         inWeight: 0
         outWeight: 0
-      - serializedVersion: 3
-        time: 150
+      - time: 150
         value: 0
         inSlope: 0
         outSlope: 0
@@ -8540,10 +8524,8 @@ MonoBehaviour:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    - serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 105
+    - m_Curve:
+      - time: 105
         value: 0
         inSlope: 0
         outSlope: 0
@@ -8551,8 +8533,7 @@ MonoBehaviour:
         weightedMode: 0
         inWeight: 0
         outWeight: 0
-      - serializedVersion: 3
-        time: 150
+      - time: 150
         value: 1
         inSlope: 0
         outSlope: 0
@@ -8560,8 +8541,7 @@ MonoBehaviour:
         weightedMode: 0
         inWeight: 0
         outWeight: 0
-      - serializedVersion: 3
-        time: 165
+      - time: 165
         value: 0
         inSlope: 0
         outSlope: 0
@@ -8572,10 +8552,8 @@ MonoBehaviour:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    - serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 120
+    - m_Curve:
+      - time: 120
         value: 0
         inSlope: 0
         outSlope: 0
@@ -8583,8 +8561,7 @@ MonoBehaviour:
         weightedMode: 0
         inWeight: 0
         outWeight: 0
-      - serializedVersion: 3
-        time: 165
+      - time: 165
         value: 1
         inSlope: 0
         outSlope: 0
@@ -8592,8 +8569,7 @@ MonoBehaviour:
         weightedMode: 0
         inWeight: 0
         outWeight: 0
-      - serializedVersion: 3
-        time: 180
+      - time: 180
         value: 0
         inSlope: 0
         outSlope: 0
@@ -8604,10 +8580,8 @@ MonoBehaviour:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    - serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 135
+    - m_Curve:
+      - time: 135
         value: 0
         inSlope: 0
         outSlope: 0
@@ -8615,8 +8589,7 @@ MonoBehaviour:
         weightedMode: 0
         inWeight: 0
         outWeight: 0
-      - serializedVersion: 3
-        time: 180
+      - time: 180
         value: 1
         inSlope: 0
         outSlope: 0
@@ -8624,8 +8597,7 @@ MonoBehaviour:
         weightedMode: 0
         inWeight: 0
         outWeight: 0
-      - serializedVersion: 3
-        time: 195
+      - time: 195
         value: 0
         inSlope: 0
         outSlope: 0
@@ -8656,10 +8628,8 @@ MonoBehaviour:
     centerOfMass: {fileID: 0}
     volant: {fileID: 0}
     angle_x_Velocity:
-      serializedVersion: 2
       m_Curve:
-      - serializedVersion: 3
-        time: 0
+      - time: 0
         value: 1
         inSlope: 0
         outSlope: 0
@@ -8667,8 +8637,7 @@ MonoBehaviour:
         weightedMode: 0
         inWeight: 0
         outWeight: 0
-      - serializedVersion: 3
-        time: 500
+      - time: 500
         value: 0.8
         inSlope: 0
         outSlope: 0
@@ -8681,77 +8650,198 @@ MonoBehaviour:
       m_RotationOrder: 4
   _wheels:
     wheelMass: 100
-    rightFrontWheel:
-      wheelMesh: {fileID: 0}
-      wheelCollider: {fileID: 0}
-      wheelDrive: 1
-      wheelHandBrake: 1
-      skidMarkShift: 0
-      wheelTurn: 0
-      wheelWorldPosition: {x: 0, y: 0, z: 0}
-      rendSKDmarks: {fileID: 0}
-      generateSkidBool: 0
-      wheelColliderRPM: 0
-      forwardSkid: 0
-      sidewaysSkid: 0
-    leftFrontWheel:
-      wheelMesh: {fileID: 0}
-      wheelCollider: {fileID: 0}
-      wheelDrive: 1
-      wheelHandBrake: 1
-      skidMarkShift: 0
-      wheelTurn: 0
-      wheelWorldPosition: {x: 0, y: 0, z: 0}
-      rendSKDmarks: {fileID: 0}
-      generateSkidBool: 0
-      wheelColliderRPM: 0
-      forwardSkid: 0
-      sidewaysSkid: 0
-    rightRearWheel:
-      wheelMesh: {fileID: 0}
-      wheelCollider: {fileID: 0}
-      wheelDrive: 1
-      wheelHandBrake: 1
-      skidMarkShift: 0
-      wheelTurn: 0
-      wheelWorldPosition: {x: 0, y: 0, z: 0}
-      rendSKDmarks: {fileID: 0}
-      generateSkidBool: 0
-      wheelColliderRPM: 0
-      forwardSkid: 0
-      sidewaysSkid: 0
-    leftRearWheel:
-      wheelMesh: {fileID: 0}
-      wheelCollider: {fileID: 0}
-      wheelDrive: 1
-      wheelHandBrake: 1
-      skidMarkShift: 0
-      wheelTurn: 0
-      wheelWorldPosition: {x: 0, y: 0, z: 0}
-      rendSKDmarks: {fileID: 0}
-      generateSkidBool: 0
-      wheelColliderRPM: 0
-      forwardSkid: 0
-      sidewaysSkid: 0
+    rightFrontWheel: {wheelMesh: {fileID: 0}, wheelCollider: {fileID: 0}, wheelDrive: 1, wheelHandBrake: 1, skidMarkShift: 0, wheelTurn: 0, wheelWorldPosition: {x: 0, y: 0, z: 0}, rendSKDmarks: {fileID: 0}, generateSkidBool: 0, wheelColliderRPM: 0, forwardSkid: 0, sidewaysSkid: 0}
+    leftFrontWheel: {wheelMesh: {fileID: 0}, wheelCollider: {fileID: 0}, wheelDrive: 1, wheelHandBrake: 1, skidMarkShift: 0, wheelTurn: 0, wheelWorldPosition: {x: 0, y: 0, z: 0}, rendSKDmarks: {fileID: 0}, generateSkidBool: 0, wheelColliderRPM: 0, forwardSkid: 0, sidewaysSkid: 0}
+    rightRearWheel: {wheelMesh: {fileID: 0}, wheelCollider: {fileID: 0}, wheelDrive: 1, wheelHandBrake: 1, skidMarkShift: 0, wheelTurn: 0, wheelWorldPosition: {x: 0, y: 0, z: 0}, rendSKDmarks: {fileID: 0}, generateSkidBool: 0, wheelColliderRPM: 0, forwardSkid: 0, sidewaysSkid: 0}
+    leftRearWheel: {wheelMesh: {fileID: 0}, wheelCollider: {fileID: 0}, wheelDrive: 1, wheelHandBrake: 1, skidMarkShift: 0, wheelTurn: 0, wheelWorldPosition: {x: 0, y: 0, z: 0}, rendSKDmarks: {fileID: 0}, generateSkidBool: 0, wheelColliderRPM: 0, forwardSkid: 0, sidewaysSkid: 0}
   _sounds:
     speedOfEngineSound: 3.5
     engineSound: {fileID: 0}
-    skiddingSound:
-      standardSound: {fileID: 0}
-      standardVolume: 1.5
+    skiddingSound: {standardSound: {fileID: 0}, standardVolume: 1.5}
     collisionSounds: []
     volumeCollisionSounds: 0.5
     wheelImpactSound: {fileID: 0}
   _skidMarks:
     standardBrandWidth: 0.3
     sensibility: 2
-    standardColor: {r: 0.15, g: 0.15, b: 0.15, a: 0}
+    standardColor:
+      r: 0.15
+      g: 0.15
+      b: 0.15
+      a: 0
   skidMarksShader: {fileID: 4800000, guid: 0e9783dda7aa8884491cd17040cdaf4b, type: 3}
+  verticalInput: 0
+  horizontalInput: 0
+  mouseXInput: 0
+  mouseYInput: 0
+  mouseScrollWheelInput: 0
+  changinGearsAuto: 0
+  theEngineIsRunning: 0
+  enableEngineSound: 0
+  youCanCall: 0
+  brakingAuto: 0
+  colliding: 0
+  enableSkidMarksOnStart: 0
+  groundedWheels: 0
+  sumRPM: 0
+  mediumRPM: 0
+  angle1Ref: 0
+  angle2Volant: 0
+  volantStartRotation: 0
+  minPitchAud: 0
+  leftDifferential: 0
+  rightDifferential: 0
+  timeAutoGear: 0
+  reverseForce: 0
+  engineInput: 0
+  angleRefVolant: 0
+  pitchAUD: 1
+  speedLerpSound: 1
+  engineSoundFactor: 0
+  vehicleScale: 0
+  maxAngleVolant: 0
+  torqueM: 0
+  rpmTempTorque: 0
+  clampInputTorque: 0
+  adjustTorque: 0
+  isGroundedExtraW: 0
+  axisFromRotate: {x: 0, y: 0, z: 0}
+  torqueForceAirRotation: {x: 0, y: 0, z: 0}
+  tireSlipTireSlips: {x: 0, y: 0}
+  tireForceTireSlips: {x: 0, y: 0}
+  localRigForceTireSlips: {x: 0, y: 0}
+  localVelocityWheelTireSlips: {x: 0, y: 0}
+  localSurfaceForceDTireSlips: {x: 0, y: 0}
+  rawTireForceTireSlips: {x: 0, y: 0}
+  tempLocalVelocityVector2: {x: 0, y: 0}
+  tempWheelVelocityVector3: {x: 0, y: 0, z: 0}
+  velocityLocalWheelTemp: {x: 0, y: 0, z: 0}
+  surfaceLocalForce: {x: 0, y: 0}
+  surfaceLocalForceTemp: {x: 0, y: 0, z: 0}
+  wheelSpeedLocalSurface: {x: 0, y: 0, z: 0}
+  downForceUPTemp: {x: 0, y: 0, z: 0}
+  normalTemp: 0
+  forceFactorTempLocalSurface: 0
+  downForceTireSlips: 0
+  estimatedSprungMass: 0
+  angularWheelVelocityTireSlips: 0
+  wheelMaxBrakeSlip: 0
+  minSlipYTireSlips: 0
+  maxFyTireSlips: 0
+  brakeInput: 0
+  velxCurrentRPM: 0
+  nextPitchAUD: 0
+  lastRightForwardPositionY: 0
+  lastLeftForwardPositionY: 0
+  lastRightRearPositionY: 0
+  lastLeftRearPositionY: 0
+  sensImpactFR: 0
+  sensImpactFL: 0
+  sensImpactRR: 0
+  sensImpactRL: 0
+  additionalCurrentGravity: 0
+  currentBrakeValue: 0
+  forceEngineBrake: 0
+  sidewaysSlipMaxSkid: 0
+  forwardSlipMaxSkid: 0
+  sensibility75kmh: 0
+  sensibilityLowSpeed: 0
+  maxSlipTemp: 0
+  forwardTempSKid: 0
+  forwardHandBrakeSKid: 0
+  skiddingIsTrue: 0
+  wheelsInOtherGround: 0
+  maxWheels: 0
+  currentDownForceVehicle: 0
+  ms_Rigidbody: {fileID: 0}
+  engineSoundAUD: {fileID: 0}
+  beatsSoundAUD: {fileID: 0}
+  beatsOnWheelSoundAUD: {fileID: 0}
+  skiddingSoundAUD: {fileID: 0}
+  wheelColliderList: []
+  tireSL: {x: 0, y: 0}
+  tireFO: {x: 0, y: 0}
+  lateralForcePointTemp: {x: 0, y: 0, z: 0}
+  forwardForceTemp: {x: 0, y: 0, z: 0}
+  lateralForceTemp: {x: 0, y: 0, z: 0}
+  distanceXForceTemp: 0
+  tempRotStabilizers: {x: 0, y: 0, z: 0, w: 0}
+  leftFrontForce: 0
+  rightFrontForce: 0
+  leftRearForce: 0
+  rightRearForce: 0
+  roolForce1: 0
+  roolForce2: 0
+  gravityValueFixedUpdate: 0
+  downForceValueFixedUpdate: 0
+  inclinationFactorForcesDown: 0
+  downForceUpdateRef: 0
+  downForceTempLerp: 0
+  impactVelocityFixedUpdate: {x: 0, y: 0, z: 0}
+  contactPointFixedUpdate: {x: 0, y: 0, z: 0}
+  isBraking: 0
+  brakeVerticalInput: 0
+  handBrake_Input: 0
+  totalFootBrake: 0
+  totalHandBrake: 0
+  absBrakeInput: 0
+  absSpeedFactor: 0
+  wheelFDIsGrounded: 0
+  wheelFEIsGrounded: 0
+  wheelTDIsGrounded: 0
+  wheelTEIsGrounded: 0
+  tempAlphaSkidMarks: 0
+  skidTemp: {x: 0, y: 0, z: 0}
+  lastPoint: []
+  vertices: []
+  normals: []
+  colors: []
+  uv: []
+  tris: 
+  vectorMeshPos1: {x: 0, y: 0, z: 0}
+  vectorMeshPos2: {x: 0, y: 0, z: 0}
+  vectorMeshPos3: {x: 0, y: 0, z: 0}
+  vectorMeshPos4: {x: 0, y: 0, z: 0}
+  vectorMeshPosTemp: {x: 0, y: 0, z: 0}
+  quatMesh1: {x: 0, y: 0, z: 0, w: 0}
+  quatMesh2: {x: 0, y: 0, z: 0, w: 0}
+  quatMesh3: {x: 0, y: 0, z: 0, w: 0}
+  quatMesh4: {x: 0, y: 0, z: 0, w: 0}
+  quatMeshTemp: {x: 0, y: 0, z: 0, w: 0}
+  changeTypeCamera: 0
+  timeScaleSpeed: 0
+  minDistanceOrbitalCamera: 0
+  camerasMovX: 0
+  camerasMovY: 0
+  camerasMovZ: 0
+  xQuaternionCameras: {x: 0, y: 0, z: 0, w: 0}
+  yQuaternionCameras: {x: 0, y: 0, z: 0, w: 0}
+  newRotationCameras: {x: 0, y: 0, z: 0, w: 0}
+  currentRotationCameras: {x: 0, y: 0, z: 0, w: 0}
+  newDistanceCameras: {x: 0, y: 0, z: 0}
+  currentPositionCameras: {x: 0, y: 0, z: 0}
+  positionCameras: {x: 0, y: 0, z: 0}
+  indexCamera: 0
+  orbitalOn: 0
+  rotationX: 0
+  rotationY: 0
+  orbitTime: 0
+  rotationXETS: 0
+  rotationYETS: 0
+  objStraightStopCameras: []
+  startRotationCameras: []
+  startPositionCameras: []
+  xOrbit: []
+  yOrbit: []
+  distanceOrbitCamera: []
+  startETSCamerasPosition: []
+  tempStartPositionShakeCameras: {x: 0, y: 0, z: 0}
   KMh: 0
   currentGear: 0
   disableVehicle: 0
   handBrakeTrue: 0
   isInsideTheCar: 0
+  controls: {fileID: 0}
 --- !u!54 &1982348868
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -9170,10 +9260,8 @@ MonoBehaviour:
     - 1
     - 1
     gears:
-    - serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
+    - m_Curve:
+      - time: 0
         value: 1.5
         inSlope: 0
         outSlope: 0
@@ -9181,8 +9269,7 @@ MonoBehaviour:
         weightedMode: 0
         inWeight: 0
         outWeight: 0
-      - serializedVersion: 3
-        time: 10
+      - time: 10
         value: 2
         inSlope: 0
         outSlope: 0
@@ -9190,8 +9277,7 @@ MonoBehaviour:
         weightedMode: 0
         inWeight: 0
         outWeight: 0
-      - serializedVersion: 3
-        time: 30
+      - time: 30
         value: 0
         inSlope: 0
         outSlope: 0
@@ -9202,10 +9288,8 @@ MonoBehaviour:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    - serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
+    - m_Curve:
+      - time: 0
         value: 0.2
         inSlope: 0
         outSlope: 0
@@ -9213,8 +9297,7 @@ MonoBehaviour:
         weightedMode: 0
         inWeight: 0
         outWeight: 0
-      - serializedVersion: 3
-        time: 30
+      - time: 30
         value: 1
         inSlope: 0
         outSlope: 0
@@ -9222,8 +9305,7 @@ MonoBehaviour:
         weightedMode: 0
         inWeight: 0
         outWeight: 0
-      - serializedVersion: 3
-        time: 45
+      - time: 45
         value: 0
         inSlope: 0
         outSlope: 0
@@ -9234,10 +9316,8 @@ MonoBehaviour:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    - serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
+    - m_Curve:
+      - time: 0
         value: 0.2
         inSlope: 0
         outSlope: 0
@@ -9245,8 +9325,7 @@ MonoBehaviour:
         weightedMode: 0
         inWeight: 0
         outWeight: 0
-      - serializedVersion: 3
-        time: 45
+      - time: 45
         value: 1
         inSlope: 0
         outSlope: 0
@@ -9254,8 +9333,7 @@ MonoBehaviour:
         weightedMode: 0
         inWeight: 0
         outWeight: 0
-      - serializedVersion: 3
-        time: 60
+      - time: 60
         value: 0
         inSlope: 0
         outSlope: 0
@@ -9266,10 +9344,8 @@ MonoBehaviour:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    - serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 15
+    - m_Curve:
+      - time: 15
         value: 0
         inSlope: 0
         outSlope: 0
@@ -9277,8 +9353,7 @@ MonoBehaviour:
         weightedMode: 0
         inWeight: 0
         outWeight: 0
-      - serializedVersion: 3
-        time: 60
+      - time: 60
         value: 1
         inSlope: 0
         outSlope: 0
@@ -9286,8 +9361,7 @@ MonoBehaviour:
         weightedMode: 0
         inWeight: 0
         outWeight: 0
-      - serializedVersion: 3
-        time: 75
+      - time: 75
         value: 0
         inSlope: 0
         outSlope: 0
@@ -9298,10 +9372,8 @@ MonoBehaviour:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    - serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 30
+    - m_Curve:
+      - time: 30
         value: 0
         inSlope: 0
         outSlope: 0
@@ -9309,8 +9381,7 @@ MonoBehaviour:
         weightedMode: 0
         inWeight: 0
         outWeight: 0
-      - serializedVersion: 3
-        time: 75
+      - time: 75
         value: 1
         inSlope: 0
         outSlope: 0
@@ -9318,8 +9389,7 @@ MonoBehaviour:
         weightedMode: 0
         inWeight: 0
         outWeight: 0
-      - serializedVersion: 3
-        time: 90
+      - time: 90
         value: 0
         inSlope: 0
         outSlope: 0
@@ -9330,10 +9400,8 @@ MonoBehaviour:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    - serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 45
+    - m_Curve:
+      - time: 45
         value: 0
         inSlope: 0
         outSlope: 0
@@ -9341,8 +9409,7 @@ MonoBehaviour:
         weightedMode: 0
         inWeight: 0
         outWeight: 0
-      - serializedVersion: 3
-        time: 90
+      - time: 90
         value: 1
         inSlope: 0
         outSlope: 0
@@ -9350,8 +9417,7 @@ MonoBehaviour:
         weightedMode: 0
         inWeight: 0
         outWeight: 0
-      - serializedVersion: 3
-        time: 105
+      - time: 105
         value: 0
         inSlope: 0
         outSlope: 0
@@ -9362,10 +9428,8 @@ MonoBehaviour:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    - serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 60
+    - m_Curve:
+      - time: 60
         value: 0
         inSlope: 0
         outSlope: 0
@@ -9373,8 +9437,7 @@ MonoBehaviour:
         weightedMode: 0
         inWeight: 0
         outWeight: 0
-      - serializedVersion: 3
-        time: 105
+      - time: 105
         value: 1
         inSlope: 0
         outSlope: 0
@@ -9382,8 +9445,7 @@ MonoBehaviour:
         weightedMode: 0
         inWeight: 0
         outWeight: 0
-      - serializedVersion: 3
-        time: 120
+      - time: 120
         value: 0
         inSlope: 0
         outSlope: 0
@@ -9394,10 +9456,8 @@ MonoBehaviour:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    - serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 75
+    - m_Curve:
+      - time: 75
         value: 0
         inSlope: 0
         outSlope: 0
@@ -9405,8 +9465,7 @@ MonoBehaviour:
         weightedMode: 0
         inWeight: 0
         outWeight: 0
-      - serializedVersion: 3
-        time: 120
+      - time: 120
         value: 1
         inSlope: 0
         outSlope: 0
@@ -9414,8 +9473,7 @@ MonoBehaviour:
         weightedMode: 0
         inWeight: 0
         outWeight: 0
-      - serializedVersion: 3
-        time: 135
+      - time: 135
         value: 0
         inSlope: 0
         outSlope: 0
@@ -9426,10 +9484,8 @@ MonoBehaviour:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    - serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 90
+    - m_Curve:
+      - time: 90
         value: 0
         inSlope: 0
         outSlope: 0
@@ -9437,8 +9493,7 @@ MonoBehaviour:
         weightedMode: 0
         inWeight: 0
         outWeight: 0
-      - serializedVersion: 3
-        time: 135
+      - time: 135
         value: 1
         inSlope: 0
         outSlope: 0
@@ -9446,8 +9501,7 @@ MonoBehaviour:
         weightedMode: 0
         inWeight: 0
         outWeight: 0
-      - serializedVersion: 3
-        time: 150
+      - time: 150
         value: 0
         inSlope: 0
         outSlope: 0
@@ -9458,10 +9512,8 @@ MonoBehaviour:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    - serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 105
+    - m_Curve:
+      - time: 105
         value: 0
         inSlope: 0
         outSlope: 0
@@ -9469,8 +9521,7 @@ MonoBehaviour:
         weightedMode: 0
         inWeight: 0
         outWeight: 0
-      - serializedVersion: 3
-        time: 150
+      - time: 150
         value: 1
         inSlope: 0
         outSlope: 0
@@ -9478,8 +9529,7 @@ MonoBehaviour:
         weightedMode: 0
         inWeight: 0
         outWeight: 0
-      - serializedVersion: 3
-        time: 165
+      - time: 165
         value: 0
         inSlope: 0
         outSlope: 0
@@ -9490,10 +9540,8 @@ MonoBehaviour:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    - serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 120
+    - m_Curve:
+      - time: 120
         value: 0
         inSlope: 0
         outSlope: 0
@@ -9501,8 +9549,7 @@ MonoBehaviour:
         weightedMode: 0
         inWeight: 0
         outWeight: 0
-      - serializedVersion: 3
-        time: 165
+      - time: 165
         value: 1
         inSlope: 0
         outSlope: 0
@@ -9510,8 +9557,7 @@ MonoBehaviour:
         weightedMode: 0
         inWeight: 0
         outWeight: 0
-      - serializedVersion: 3
-        time: 180
+      - time: 180
         value: 0
         inSlope: 0
         outSlope: 0
@@ -9522,10 +9568,8 @@ MonoBehaviour:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    - serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 135
+    - m_Curve:
+      - time: 135
         value: 0
         inSlope: 0
         outSlope: 0
@@ -9533,8 +9577,7 @@ MonoBehaviour:
         weightedMode: 0
         inWeight: 0
         outWeight: 0
-      - serializedVersion: 3
-        time: 180
+      - time: 180
         value: 1
         inSlope: 0
         outSlope: 0
@@ -9542,8 +9585,7 @@ MonoBehaviour:
         weightedMode: 0
         inWeight: 0
         outWeight: 0
-      - serializedVersion: 3
-        time: 195
+      - time: 195
         value: 0
         inSlope: 0
         outSlope: 0
@@ -9574,10 +9616,8 @@ MonoBehaviour:
     centerOfMass: {fileID: 0}
     volant: {fileID: 0}
     angle_x_Velocity:
-      serializedVersion: 2
       m_Curve:
-      - serializedVersion: 3
-        time: 0
+      - time: 0
         value: 1
         inSlope: 0
         outSlope: 0
@@ -9585,8 +9625,7 @@ MonoBehaviour:
         weightedMode: 0
         inWeight: 0
         outWeight: 0
-      - serializedVersion: 3
-        time: 500
+      - time: 500
         value: 0.8
         inSlope: 0
         outSlope: 0
@@ -9599,77 +9638,198 @@ MonoBehaviour:
       m_RotationOrder: 4
   _wheels:
     wheelMass: 100
-    rightFrontWheel:
-      wheelMesh: {fileID: 0}
-      wheelCollider: {fileID: 0}
-      wheelDrive: 1
-      wheelHandBrake: 1
-      skidMarkShift: 0
-      wheelTurn: 0
-      wheelWorldPosition: {x: 0, y: 0, z: 0}
-      rendSKDmarks: {fileID: 0}
-      generateSkidBool: 0
-      wheelColliderRPM: 0
-      forwardSkid: 0
-      sidewaysSkid: 0
-    leftFrontWheel:
-      wheelMesh: {fileID: 0}
-      wheelCollider: {fileID: 0}
-      wheelDrive: 1
-      wheelHandBrake: 1
-      skidMarkShift: 0
-      wheelTurn: 0
-      wheelWorldPosition: {x: 0, y: 0, z: 0}
-      rendSKDmarks: {fileID: 0}
-      generateSkidBool: 0
-      wheelColliderRPM: 0
-      forwardSkid: 0
-      sidewaysSkid: 0
-    rightRearWheel:
-      wheelMesh: {fileID: 0}
-      wheelCollider: {fileID: 0}
-      wheelDrive: 1
-      wheelHandBrake: 1
-      skidMarkShift: 0
-      wheelTurn: 0
-      wheelWorldPosition: {x: 0, y: 0, z: 0}
-      rendSKDmarks: {fileID: 0}
-      generateSkidBool: 0
-      wheelColliderRPM: 0
-      forwardSkid: 0
-      sidewaysSkid: 0
-    leftRearWheel:
-      wheelMesh: {fileID: 0}
-      wheelCollider: {fileID: 0}
-      wheelDrive: 1
-      wheelHandBrake: 1
-      skidMarkShift: 0
-      wheelTurn: 0
-      wheelWorldPosition: {x: 0, y: 0, z: 0}
-      rendSKDmarks: {fileID: 0}
-      generateSkidBool: 0
-      wheelColliderRPM: 0
-      forwardSkid: 0
-      sidewaysSkid: 0
+    rightFrontWheel: {wheelMesh: {fileID: 0}, wheelCollider: {fileID: 0}, wheelDrive: 1, wheelHandBrake: 1, skidMarkShift: 0, wheelTurn: 0, wheelWorldPosition: {x: 0, y: 0, z: 0}, rendSKDmarks: {fileID: 0}, generateSkidBool: 0, wheelColliderRPM: 0, forwardSkid: 0, sidewaysSkid: 0}
+    leftFrontWheel: {wheelMesh: {fileID: 0}, wheelCollider: {fileID: 0}, wheelDrive: 1, wheelHandBrake: 1, skidMarkShift: 0, wheelTurn: 0, wheelWorldPosition: {x: 0, y: 0, z: 0}, rendSKDmarks: {fileID: 0}, generateSkidBool: 0, wheelColliderRPM: 0, forwardSkid: 0, sidewaysSkid: 0}
+    rightRearWheel: {wheelMesh: {fileID: 0}, wheelCollider: {fileID: 0}, wheelDrive: 1, wheelHandBrake: 1, skidMarkShift: 0, wheelTurn: 0, wheelWorldPosition: {x: 0, y: 0, z: 0}, rendSKDmarks: {fileID: 0}, generateSkidBool: 0, wheelColliderRPM: 0, forwardSkid: 0, sidewaysSkid: 0}
+    leftRearWheel: {wheelMesh: {fileID: 0}, wheelCollider: {fileID: 0}, wheelDrive: 1, wheelHandBrake: 1, skidMarkShift: 0, wheelTurn: 0, wheelWorldPosition: {x: 0, y: 0, z: 0}, rendSKDmarks: {fileID: 0}, generateSkidBool: 0, wheelColliderRPM: 0, forwardSkid: 0, sidewaysSkid: 0}
   _sounds:
     speedOfEngineSound: 3.5
     engineSound: {fileID: 0}
-    skiddingSound:
-      standardSound: {fileID: 0}
-      standardVolume: 1.5
+    skiddingSound: {standardSound: {fileID: 0}, standardVolume: 1.5}
     collisionSounds: []
     volumeCollisionSounds: 0.5
     wheelImpactSound: {fileID: 0}
   _skidMarks:
     standardBrandWidth: 0.3
     sensibility: 2
-    standardColor: {r: 0.15, g: 0.15, b: 0.15, a: 0}
+    standardColor:
+      r: 0.15
+      g: 0.15
+      b: 0.15
+      a: 0
   skidMarksShader: {fileID: 4800000, guid: 0e9783dda7aa8884491cd17040cdaf4b, type: 3}
+  verticalInput: 0
+  horizontalInput: 0
+  mouseXInput: 0
+  mouseYInput: 0
+  mouseScrollWheelInput: 0
+  changinGearsAuto: 0
+  theEngineIsRunning: 0
+  enableEngineSound: 0
+  youCanCall: 0
+  brakingAuto: 0
+  colliding: 0
+  enableSkidMarksOnStart: 0
+  groundedWheels: 0
+  sumRPM: 0
+  mediumRPM: 0
+  angle1Ref: 0
+  angle2Volant: 0
+  volantStartRotation: 0
+  minPitchAud: 0
+  leftDifferential: 0
+  rightDifferential: 0
+  timeAutoGear: 0
+  reverseForce: 0
+  engineInput: 0
+  angleRefVolant: 0
+  pitchAUD: 1
+  speedLerpSound: 1
+  engineSoundFactor: 0
+  vehicleScale: 0
+  maxAngleVolant: 0
+  torqueM: 0
+  rpmTempTorque: 0
+  clampInputTorque: 0
+  adjustTorque: 0
+  isGroundedExtraW: 0
+  axisFromRotate: {x: 0, y: 0, z: 0}
+  torqueForceAirRotation: {x: 0, y: 0, z: 0}
+  tireSlipTireSlips: {x: 0, y: 0}
+  tireForceTireSlips: {x: 0, y: 0}
+  localRigForceTireSlips: {x: 0, y: 0}
+  localVelocityWheelTireSlips: {x: 0, y: 0}
+  localSurfaceForceDTireSlips: {x: 0, y: 0}
+  rawTireForceTireSlips: {x: 0, y: 0}
+  tempLocalVelocityVector2: {x: 0, y: 0}
+  tempWheelVelocityVector3: {x: 0, y: 0, z: 0}
+  velocityLocalWheelTemp: {x: 0, y: 0, z: 0}
+  surfaceLocalForce: {x: 0, y: 0}
+  surfaceLocalForceTemp: {x: 0, y: 0, z: 0}
+  wheelSpeedLocalSurface: {x: 0, y: 0, z: 0}
+  downForceUPTemp: {x: 0, y: 0, z: 0}
+  normalTemp: 0
+  forceFactorTempLocalSurface: 0
+  downForceTireSlips: 0
+  estimatedSprungMass: 0
+  angularWheelVelocityTireSlips: 0
+  wheelMaxBrakeSlip: 0
+  minSlipYTireSlips: 0
+  maxFyTireSlips: 0
+  brakeInput: 0
+  velxCurrentRPM: 0
+  nextPitchAUD: 0
+  lastRightForwardPositionY: 0
+  lastLeftForwardPositionY: 0
+  lastRightRearPositionY: 0
+  lastLeftRearPositionY: 0
+  sensImpactFR: 0
+  sensImpactFL: 0
+  sensImpactRR: 0
+  sensImpactRL: 0
+  additionalCurrentGravity: 0
+  currentBrakeValue: 0
+  forceEngineBrake: 0
+  sidewaysSlipMaxSkid: 0
+  forwardSlipMaxSkid: 0
+  sensibility75kmh: 0
+  sensibilityLowSpeed: 0
+  maxSlipTemp: 0
+  forwardTempSKid: 0
+  forwardHandBrakeSKid: 0
+  skiddingIsTrue: 0
+  wheelsInOtherGround: 0
+  maxWheels: 0
+  currentDownForceVehicle: 0
+  ms_Rigidbody: {fileID: 0}
+  engineSoundAUD: {fileID: 0}
+  beatsSoundAUD: {fileID: 0}
+  beatsOnWheelSoundAUD: {fileID: 0}
+  skiddingSoundAUD: {fileID: 0}
+  wheelColliderList: []
+  tireSL: {x: 0, y: 0}
+  tireFO: {x: 0, y: 0}
+  lateralForcePointTemp: {x: 0, y: 0, z: 0}
+  forwardForceTemp: {x: 0, y: 0, z: 0}
+  lateralForceTemp: {x: 0, y: 0, z: 0}
+  distanceXForceTemp: 0
+  tempRotStabilizers: {x: 0, y: 0, z: 0, w: 0}
+  leftFrontForce: 0
+  rightFrontForce: 0
+  leftRearForce: 0
+  rightRearForce: 0
+  roolForce1: 0
+  roolForce2: 0
+  gravityValueFixedUpdate: 0
+  downForceValueFixedUpdate: 0
+  inclinationFactorForcesDown: 0
+  downForceUpdateRef: 0
+  downForceTempLerp: 0
+  impactVelocityFixedUpdate: {x: 0, y: 0, z: 0}
+  contactPointFixedUpdate: {x: 0, y: 0, z: 0}
+  isBraking: 0
+  brakeVerticalInput: 0
+  handBrake_Input: 0
+  totalFootBrake: 0
+  totalHandBrake: 0
+  absBrakeInput: 0
+  absSpeedFactor: 0
+  wheelFDIsGrounded: 0
+  wheelFEIsGrounded: 0
+  wheelTDIsGrounded: 0
+  wheelTEIsGrounded: 0
+  tempAlphaSkidMarks: 0
+  skidTemp: {x: 0, y: 0, z: 0}
+  lastPoint: []
+  vertices: []
+  normals: []
+  colors: []
+  uv: []
+  tris: 
+  vectorMeshPos1: {x: 0, y: 0, z: 0}
+  vectorMeshPos2: {x: 0, y: 0, z: 0}
+  vectorMeshPos3: {x: 0, y: 0, z: 0}
+  vectorMeshPos4: {x: 0, y: 0, z: 0}
+  vectorMeshPosTemp: {x: 0, y: 0, z: 0}
+  quatMesh1: {x: 0, y: 0, z: 0, w: 0}
+  quatMesh2: {x: 0, y: 0, z: 0, w: 0}
+  quatMesh3: {x: 0, y: 0, z: 0, w: 0}
+  quatMesh4: {x: 0, y: 0, z: 0, w: 0}
+  quatMeshTemp: {x: 0, y: 0, z: 0, w: 0}
+  changeTypeCamera: 0
+  timeScaleSpeed: 0
+  minDistanceOrbitalCamera: 0
+  camerasMovX: 0
+  camerasMovY: 0
+  camerasMovZ: 0
+  xQuaternionCameras: {x: 0, y: 0, z: 0, w: 0}
+  yQuaternionCameras: {x: 0, y: 0, z: 0, w: 0}
+  newRotationCameras: {x: 0, y: 0, z: 0, w: 0}
+  currentRotationCameras: {x: 0, y: 0, z: 0, w: 0}
+  newDistanceCameras: {x: 0, y: 0, z: 0}
+  currentPositionCameras: {x: 0, y: 0, z: 0}
+  positionCameras: {x: 0, y: 0, z: 0}
+  indexCamera: 0
+  orbitalOn: 0
+  rotationX: 0
+  rotationY: 0
+  orbitTime: 0
+  rotationXETS: 0
+  rotationYETS: 0
+  objStraightStopCameras: []
+  startRotationCameras: []
+  startPositionCameras: []
+  xOrbit: []
+  yOrbit: []
+  distanceOrbitCamera: []
+  startETSCamerasPosition: []
+  tempStartPositionShakeCameras: {x: 0, y: 0, z: 0}
   KMh: 0
   currentGear: 0
   disableVehicle: 0
   handBrakeTrue: 0
   isInsideTheCar: 0
+  controls: {fileID: 0}
 --- !u!54 &2030289107
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -9701,14 +9861,14 @@ MonoBehaviour:
   motorForce: 1000
   breakForce: 3000
   maxSteerAngle: 30
-  frontLeftWheelCollider: {fileID: 0}
-  frontRightWheelCollider: {fileID: 0}
-  rearLeftWheelCollider: {fileID: 0}
-  rearRightWheelCollider: {fileID: 0}
-  frontLeftWheelTransform: {fileID: 0}
-  frontRightWheeTransform: {fileID: 0}
-  rearLeftWheelTransform: {fileID: 0}
-  rearRightWheelTransform: {fileID: 0}
+  frontLeftWheelCollider: {fileID: 88661384}
+  frontRightWheelCollider: {fileID: 1574577981}
+  rearLeftWheelCollider: {fileID: 671313098}
+  rearRightWheelCollider: {fileID: 238547519}
+  frontLeftWheelTransform: {fileID: 88661383}
+  frontRightWheeTransform: {fileID: 1574577980}
+  rearLeftWheelTransform: {fileID: 671313097}
+  rearRightWheelTransform: {fileID: 238547518}
 --- !u!1001 &2031249118
 PrefabInstance:
   m_ObjectHideFlags: 0
